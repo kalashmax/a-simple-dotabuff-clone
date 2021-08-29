@@ -1,0 +1,62 @@
+body{
+    background-color: whitesmoke;
+}
+
+.main_container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+form {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.avatar {
+    max-width: 20rem;
+}
+
+.credentials-text-info {
+    text-align: center;
+    margin-bottom: 1rem;
+
+
+}
+.nickname {
+    margin: 0.5rem;
+    font-size: 2rem;
+    font-size: bold;
+}
+
+.main_container a {
+    text-decoration: none;
+    color: gray;
+}
+
+
+table, th, td {
+    font-size: 1.2rem;
+    border: 1px solid black;
+}
+table {
+    min-width: 20rem;
+}
+th{
+    background-color: whitesmoke;
+    transition: background-color, 50ms ease;
+
+}
+th:hover {
+    background-color: rgba(182, 187, 190, 0.603);
+    /* transition: background-color, 300ms; */
+    cursor: default;
+}
+
+.red{
+    color: crimson
+}
+.green{
+    color:darkgreen
+}
